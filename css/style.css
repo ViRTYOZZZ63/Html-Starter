@@ -64,3 +64,35 @@ body {
   color: #6a6a6a;
   margin-top: 4px;
 }
+.card {
+  background: whitesmoke;
+  box-shadow: 0px 4px 30px rgba(0,0,0,0.5); 
+  border: radius 10px;
+  margin-top: 12px;
+  padding-bottom: 12px;
+  padding: 20px;
+}
+.buttons {
+ display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+  margin: auto;
+  gap: 0px;
+  margin-bottom: 10px; 
+}
+.button {
+  height: 40px;
+  flex-shrink: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  background-color: rgb(255, 255, 255)
+}
+.buttongithub {
+  justify-content: center;
+  padding-top: 30;
+  margin: auto;
+  display: flex;
+  max-width: 300px;
+}
